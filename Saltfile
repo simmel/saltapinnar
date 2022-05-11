@@ -1,0 +1,10 @@
+salt-call:
+  config_dir: etc
+  local: True
+  file_root: states
+  pillar_root: pillars
+  root_dir: .tmp
+  log_file: etc/log
+
+minion_id_caching: False
+root_dir: .tmp
