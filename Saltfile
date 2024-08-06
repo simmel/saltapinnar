@@ -1,3 +1,11 @@
+salt-run:
+  config_dir: etc
+  local: True
+  file_root: states
+  pillar_root: pillars
+  root_dir: .tmp
+  log_file: etc/log
+
 salt-call:
   config_dir: etc
   local: True
